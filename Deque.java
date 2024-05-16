@@ -1,6 +1,5 @@
-package org.example;
 import java.util.Scanner;
-public class Deque<T> implements newDeque<T>{
+public class Deque<T>{
     private static class Nodes<T> {
         T head;
         Nodes next, prev;
